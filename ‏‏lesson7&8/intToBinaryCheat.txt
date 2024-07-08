@@ -1,0 +1,38 @@
+#include <stdio.h>
+char* binary(int value) {
+    // Determine the number of bits in an integer
+    int num_bits = sizeof(int) * 8;
+
+    // Allocate memory for the binary string (+1 for null terminator)
+    char* binary_str = (char*)malloc(num_bits + 1);
+
+    if (binary_str == NULL) {
+        return NULL; // Memory allocation failed
+    }
+
+    // Initialize the string with zeros
+    for (int i = 0; i < num_bits; i++) {
+        binary_str[i] = '0';
+    }
+    binary_str[num_bits] = '\0'; // Null terminator
+
+    // Convert integer to binary string
+    for (int i = num_bits - 1; i >= 0; i--) {
+        if (value & 1) {
+            binary_str[i] = '1';
+        }
+        value >>= 1;
+    }
+
+    return binary_str;
+}
+
+int main()
+{
+    int x=4,z=0,y=0;
+    z=x<<2;
+    y=x>>2;
+    printf("%d %d %d\n", x,y,z);
+    printf("x: %s\ny: %s\nz: %s\n", binary(x),binary(y),binary(z));
+    return 0;
+}
