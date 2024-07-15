@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ori Cohen, Unemployed, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\orior\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\orior\OneDrive\Desktop\C_Projects\Modern_Embedded_Systems_Programming_Course_by_Quantum_Leaps,LLC\þþþþþþlesson10\lessonx.uvprojx
+Project File Date:  07/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\orior\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling delay.c...
+compiling main.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal.c...
+C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(379): warning: unused parameter 'Regulator' [-Wunused-parameter]
+  379 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry)
+      |                                      ^
+1 warning generated.
+compiling stm32f4xx_hal_pwr.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_rcc.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+linking...
+Program Size: Code=696 RO-data=408 RW-data=0 ZI-data=1640  
+".\Objects\lessonx.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Classic Version: 1.8.1
+   * Component: Common Version: 1.8.1
+   * Component: Cortex Version: 1.8.1
+   * Component: GPIO Version: 1.8.1
+   * Component: PWR Version: 1.8.1
+   * Component: RCC Version: 1.8.1
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F407VGTx
+  ./RTE/_Target_1
+  C:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+  C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Device:STM32Cube Framework(API)@1.0.0
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:STM32Cube Framework:Classic@1.8.1
+      Include file:  MDK/Templates/Inc/stm32f4xx_hal_conf.h
+      Include file:  MDK/Templates/Inc/stm32f4xx_it.h
+      Source file:   MDK/Templates/Src/stm32f4xx_hal_msp.c
+      Source file:   MDK/Templates/Src/stm32f4xx_it.c
+      Source file:   MDK/Templates/Src/main.c
+      Include file:  MDK/Templates_LL/Inc/main.h
+      Include file:  MDK/Templates/Inc/main.h
+      Source file:   MDK/Templates_LL/Src/main.c
+      Include file:  CMSIS/Driver/Config/RTE_Device.h
+
+   * Component: Keil::Device:STM32Cube HAL:Common@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+      Include file:  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f407xx.s
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
