@@ -1,0 +1,13 @@
+../Src/bsp.c:9:6:SysTick_Handler	2
+../Src/bsp.c:18:6:BSP_init	1
+../Src/bsp.c:44:6:BSP_ledGreenOn	1
+../Src/bsp.c:48:6:BSP_ledGreenOff	1
+../Src/bsp.c:52:6:BSP_ledRedOn	1
+../Src/bsp.c:56:6:BSP_ledRedOff	1
+../Src/bsp.c:60:6:BSP_ledOrangeOn	1
+../Src/bsp.c:64:6:BSP_ledOrangeOff	1
+../Src/bsp.c:69:6:BSP_ledBlueOn	1
+../Src/bsp.c:73:6:BSP_ledBlueOff	1
+../Src/bsp.c:78:6:BSP_delay	2
+../Src/bsp.c:84:5:turnOffAllLeds	1
+../Src/bsp.c:93:6:assert_failed	1
