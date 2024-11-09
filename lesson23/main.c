@@ -1,7 +1,6 @@
 /*
  This lesson is about Automating the context switch, creating MiROS -> 
  Minimal Real-time Operating system from scratch!
- 
  */
 #include <stdint.h>
 #include "miros.h"
