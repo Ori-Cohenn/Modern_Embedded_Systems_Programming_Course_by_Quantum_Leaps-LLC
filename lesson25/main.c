@@ -24,9 +24,9 @@ void main_blinky2()
 {
   while (1)
   {
-    BSP_ledBlueOn();
+    BSP_ledOrangeOn();
     OS_delay(BSP_TICKS_PER_SEC / 2U);
-    BSP_ledBlueOff();
+    BSP_ledOrangeOff();
     OS_delay(BSP_TICKS_PER_SEC / 3U);
   }
 }
@@ -36,9 +36,9 @@ void main_blinky3()
 {
   while (1)
   {
-    BSP_ledOrangeOn();
+    BSP_ledRedOn();
     OS_delay(BSP_TICKS_PER_SEC / 3U);
-    BSP_ledOrangeOff();
+    BSP_ledRedOff();
     OS_delay(BSP_TICKS_PER_SEC *3U / 5U);
   }
 }

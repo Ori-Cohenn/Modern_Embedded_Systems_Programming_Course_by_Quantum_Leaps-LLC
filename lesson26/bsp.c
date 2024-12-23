@@ -130,3 +130,4 @@ void Q_onAssert(char const *module, int id) {
 void assert_failed(char const *module, int id) {
     Q_onAssert(module, id);
 }
+

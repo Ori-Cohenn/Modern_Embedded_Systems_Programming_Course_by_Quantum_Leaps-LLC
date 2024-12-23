@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\lessonx.out]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\lessonx.out</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Mon Dec 23 16:50:58 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Mon Dec 23 16:22:56 2024
 <BR><P>
-<H3>Maximum Stack Usage =         72 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =         80 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; OS_init &rArr; OSThread_start &rArr; Q_onAssert
 <P>
@@ -247,7 +247,7 @@ Global Symbols
 <P><STRONG><a name="[a6]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[69]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 80 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; OS_init &rArr; OSThread_start &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -636,7 +636,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_blinky2
 </UL>
 
-<P><STRONG><a name="[72]"></a>OSThread_start</STRONG> (Thumb, 390 bytes, Stack size 32 bytes, miros.o(.text.OSThread_start))
+<P><STRONG><a name="[72]"></a>OSThread_start</STRONG> (Thumb, 394 bytes, Stack size 32 bytes, miros.o(.text.OSThread_start))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = OSThread_start &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Q_onAssert
@@ -645,8 +645,8 @@ Global Symbols
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[74]"></a>OS_delay</STRONG> (Thumb, 106 bytes, Stack size 16 bytes, miros.o(.text.OS_delay))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = OS_delay &rArr; Q_onAssert
+<P><STRONG><a name="[74]"></a>OS_delay</STRONG> (Thumb, 118 bytes, Stack size 16 bytes, miros.o(.text.OS_delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = OS_delay &rArr; OS_sched &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Q_onAssert
 <LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_sched
@@ -655,8 +655,8 @@ Global Symbols
 <LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_blinky1
 </UL>
 
-<P><STRONG><a name="[76]"></a>OS_init</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, miros.o(.text.OS_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = OS_init &rArr; OSThread_start &rArr; Q_onAssert
+<P><STRONG><a name="[76]"></a>OS_init</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, miros.o(.text.OS_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = OS_init &rArr; OSThread_start &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSThread_start
 </UL>
@@ -687,16 +687,20 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[75]"></a>OS_sched</STRONG> (Thumb, 188 bytes, Stack size 4 bytes, miros.o(.text.OS_sched))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = OS_sched
+<P><STRONG><a name="[75]"></a>OS_sched</STRONG> (Thumb, 138 bytes, Stack size 16 bytes, miros.o(.text.OS_sched))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = OS_sched &rArr; Q_onAssert
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Q_onAssert
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_run
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_delay
 </UL>
 
-<P><STRONG><a name="[7d]"></a>OS_tick</STRONG> (Thumb, 136 bytes, Stack size 4 bytes, miros.o(.text.OS_tick))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = OS_tick
+<P><STRONG><a name="[7c]"></a>OS_tick</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, miros.o(.text.OS_tick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = OS_tick &rArr; Q_onAssert
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Q_onAssert
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 </UL>
@@ -707,18 +711,20 @@ Global Symbols
 <P><STRONG><a name="[73]"></a>Q_onAssert</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp.o(.text.Q_onAssert))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Q_onAssert
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SystemReset
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SystemReset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_run
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_sched
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_tick
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_run
 <LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSThread_start
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_delay
 </UL>
 
 <P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, bsp.o(.text.SysTick_Handler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SysTick_Handler &rArr; OS_sched
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SysTick_Handler &rArr; OS_tick &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_sched
-<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_tick
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_tick
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
@@ -731,8 +737,8 @@ Global Symbols
 <P><STRONG><a name="[5b]"></a>SystemInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, system_stm32f4xx.o(.text.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(.text)
 </UL>
-<P><STRONG><a name="[6a]"></a>main</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = main &rArr; OS_init &rArr; OSThread_start &rArr; Q_onAssert
+<P><STRONG><a name="[6a]"></a>main</STRONG> (Thumb, 106 bytes, Stack size 16 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = main &rArr; OS_init &rArr; OSThread_start &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_run
 <LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSThread_start
@@ -742,17 +748,17 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[5e]"></a>main_blinky1</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main.o(.text.main_blinky1))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = main_blinky1 &rArr; OS_delay &rArr; Q_onAssert
+<P><STRONG><a name="[5e]"></a>main_blinky1</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, main.o(.text.main_blinky1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = main_blinky1 &rArr; OS_delay &rArr; OS_sched &rArr; Q_onAssert
 </UL>
-<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_ledGreenOff
-<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_delay
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_delay
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_ledGreenOff
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_ledGreenOn
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> main.o(.text.main)
 </UL>
-<P><STRONG><a name="[5f]"></a>main_blinky2</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main.o(.text.main_blinky2))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = main_blinky2 &rArr; OS_delay &rArr; Q_onAssert
+<P><STRONG><a name="[5f]"></a>main_blinky2</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, main.o(.text.main_blinky2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = main_blinky2 &rArr; OS_delay &rArr; OS_sched &rArr; Q_onAssert
 </UL>
 <BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_ledOrangeOff
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_ledOrangeOn
@@ -785,7 +791,7 @@ Local Symbols
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
 </UL>
 
-<P><STRONG><a name="[7c]"></a>__NVIC_SystemReset</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, bsp.o(.text.__NVIC_SystemReset))
+<P><STRONG><a name="[7d]"></a>__NVIC_SystemReset</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, bsp.o(.text.__NVIC_SystemReset))
 <BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Q_onAssert
 </UL>
 <P>
