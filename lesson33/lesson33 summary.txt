@@ -1,0 +1,77 @@
+Event-driven programming is a crucial concept in modern software, including embedded systems.
+
+It became essential with the rise of Graphical User Interfaces (GUIs) in the 1980s.
+
+Unlike command-line interfaces, which process inputs sequentially, GUIs introduced multiple input sources.
+
+Users interact with the system using both the keyboard and the mouse simultaneously.
+
+This made traditional sequential programming ineffective, as waiting for one input would ignore others.
+
+To solve this, software needed a way to process multiple inputs without blocking execution.
+
+The key innovation was event-driven programming, where inputs are treated as events.
+
+Events include user actions like keypresses, mouse movements, and button clicks.
+
+Instead of executing commands in a strict order, the software reacts to events dynamically.
+
+Windows systems introduced the concept of an event queue to store and process events asynchronously.
+
+This ensures that events are recorded immediately but processed when the system is ready.
+
+Event-driven programs rely on a message loop to continuously check and handle new events.
+
+In Windows, the GetMessage() function retrieves the next event from the queue.
+
+If no events are available, the function blocks and waits, preventing CPU waste.
+
+When an event is received, the DispatchMessage() function sends it to a window procedure.
+
+The window procedure acts as the event handler and determines how to respond to different messages.
+
+Messages include signals like WM_KEYDOWN for keypresses and WM_MOUSEMOVE for mouse activity.
+
+Each message contains additional parameters, like which key was pressed or the mouse coordinates.
+
+The program processes the message using a switch statement to determine the appropriate response.
+
+Messages that are not explicitly handled are passed to the default Windows system procedure.
+
+This hierarchical approach allows applications to inherit standard behaviors while customizing specific actions.
+
+This method is known as Programming by Difference, as developers modify only necessary parts.
+
+Another important concept is Inversion of Control, where the system calls the application code instead of the other way around.
+
+Unlike traditional programming, where the program dictates execution, event-driven systems wait for user input.
+
+This means the application does not control the flow directly but reacts to system-generated events.
+
+One major challenge in event-driven programming is the handling of blocking operations.
+
+Blocking functions, like sleep delays, prevent the system from processing new events.
+
+For example, adding a Sleep(200ms) delay after a keypress would make the application unresponsive.
+
+During this delay, other inputs accumulate in the queue, causing sudden jumps in event counters.
+
+This issue is known as the "pig" problem, where the application becomes sluggish and unresponsive.
+
+The solution is to use timers instead of blocking delays.
+
+A timer schedules a future event, allowing the program to continue handling other inputs.
+
+For example, setting a WM_TIMER event for 200ms later allows smooth execution without freezing.
+
+Timers ensure the program remains responsive while still achieving time-dependent actions.
+
+This highlights a critical principle of event-driven programming: never block execution.
+
+Instead of waiting inside a function, programs should set up future events and return control immediately.
+
+This guarantees that the system can process other inputs without interruption.
+
+Windows applications use this principle to maintain smooth and interactive user experiences.
+
+Event-driven programming is the foundation of real-time embedded systems as well.
