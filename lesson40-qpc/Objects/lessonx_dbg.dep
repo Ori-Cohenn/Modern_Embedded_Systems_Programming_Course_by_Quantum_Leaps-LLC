@@ -1,0 +1,354 @@
+Dependencies for Project 'lessonx', Target 'dbg': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\main.c)(0x67CF3029)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/main.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\include\qpc.h)(0x67424F1C)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+I (bsp.h)(0x67CF2C6A)
+F (.\bsp.c)(0x67CF2E67)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/bsp.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\include\qpc.h)(0x67424F1C)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+I (bsp.h)(0x67CF2C6A)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (.\bsp.h)(0x67CF2C6A)()
+F (..\qpc\src\qf\qep_hsm.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qep_hsm.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qep_msm.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qep_msm.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_act.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_act.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_actq.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_actq.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_defer.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_defer.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_dyn.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_dyn.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_mem.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_mem.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_ps.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_ps.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_qact.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_qact.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_qeq.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_qeq.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_qmact.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_qmact.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qf\qf_time.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qf_time.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\src\qv\qv.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qv.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+I (..\qpc\include\qp_pkg.h)(0x67424F1C)
+I (..\qpc\include\qsafe.h)(0x67424F1C)
+I (..\qpc\include\qs_dummy.h)(0x67424F1C)
+F (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)()
+F (..\qpc\ports\arm-cm\qv\armclang\qs_port.h)(0x67424F1C)()
+F (..\qpc\ports\arm-cm\qv\armclang\qv_port.c)(0x67424F1C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/qv_port.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (..\qpc\ports\arm-cm\qv\armclang\qp_port.h)(0x67424F1C)
+I (..\qpc\include\qequeue.h)(0x67424F1C)
+I (..\qpc\include\qmpool.h)(0x67424F1C)
+I (..\qpc\include\qp.h)(0x67424F1C)
+I (..\qpc\include\qv.h)(0x67424F1C)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_cortex.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_gpio.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_pwr.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_pwr_ex.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_rcc.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (C:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x666B58A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_rcc_ex.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
+F (RTE/Device/STM32F407VGTx/RTE_Device.h)(0x666B589E)()
+F (RTE/Device/STM32F407VGTx/startup_stm32f407xx.s)(0x67AA1F6C)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 542" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (RTE/Device/STM32F407VGTx/stm32f4xx_hal_conf.h)(0x666B58A3)()
+F (RTE/Device/STM32F407VGTx/system_stm32f4xx.c)(0x673B5750)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../lesson40-qpc -I ../qpc/include -I ../qpc/src -I ../qpc/ports/arm-cm/qv/armclang -Wconditional-uninitialized -Wsometimes-uninitialized-I./RTE/Device/STM32F407VGTx-I./RTE/_dbg-IC:/Users/orior/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/orior/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="542" -DSTM32F407xx -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/system_stm32f4xx.o -MMD)
+I (RTE\_dbg\Pre_Include_Global.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C1ED8)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x666B58A0)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x666B58A1)
+I (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x666B58A3)
+I (RTE\_dbg\RTE_Components.h)(0x671FBBFC)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x666B58A1)
+I (C:\Users\orior\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x666B58A1)
